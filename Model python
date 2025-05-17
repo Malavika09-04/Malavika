@@ -1,0 +1,10 @@
+def predict_disease(patient_data):
+    # Dummy AI logic
+    age = patient_data.get("age", 0)
+    symptoms = patient_data.get("symptoms", [])
+    
+    if "fever" in symptoms and age > 50:
+        return "High risk of flu"
+    elif "cough" in symptoms:
+        return "Possible respiratory infection"
+    return "No significant disease detected"
