@@ -1,0 +1,9 @@
+#healthcare_ai/
+│
+├── app.py                 # Flask app
+├── model.py               # AI model logic
+├── github_data.py         # Handles fetching patient data from GitHub
+├── templates/
+│   └── login.html
+│   └── dashboard.html
+├── requirements.txt 
