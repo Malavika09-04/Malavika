@@ -1,0 +1,10 @@
+{
+  "john_doe": {
+    "age": 65,
+    "symptoms": ["fever", "cough"]
+  },
+  "jane_smith": {
+    "age": 30,
+    "symptoms": ["headache"]
+  }
+}
